@@ -78,7 +78,7 @@ const record = [
    
    superbowlWin = (record) => { 
    let newResult = record.find(record => record.result) === "W";
-     return !!newResult === "W" ? newResult : undefined;
+     return !!newResult ? newResult : undefined;
     
    }
 
